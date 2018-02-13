@@ -548,7 +548,8 @@ be temporary, and you can try again later.</li>
     %3$s will be replaced with a URL linking to the tracking protection wiki page (e.g. https://wiki.mozilla.org/Security/Tracking_protection#Lists) -->
     <string name="your_rights_content5"><![CDATA[%1$s also uses blocklists provided by Disconnect, Inc. as separate and independent works under the <a href="%2$s">GNU General Public License v3</a>, and available <a href="%3$s">here</a>.]]></string>
 
-    <!-- Focus video strings -->
+    <!-- Firefox for Fire TV
+    video strings -->
     <string name="menu_drawer_home">Home</string>
 
     <!-- Home tile strings -->
@@ -558,6 +559,8 @@ be temporary, and you can try again later.</li>
     <string name="tile_rottentomatoes">Rotten Tomatoes</string>
     <string name="tile_metacritic">metacritic</string>
     <string name="tile_fandango">Fandango</string>
+
+    <!-- Name of an American magazine: Does not need to be translated -->
     <string name="tile_hollywood_reporter">Hollywood Reporter</string>
     <string name="tile_flickr">Flickr</string>
     <string name="tile_instagram">Instagram</string>
