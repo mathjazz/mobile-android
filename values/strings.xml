@@ -565,6 +565,8 @@ be temporary, and you can try again later.</li>
 
     <string name="nav_close_hint">Close</string>
 
+    <string name="homescreen_tile_remove">Remove</string>
+
     <!-- Text shown in prompts for GeckoView -->
     <string name="gv_prompt_username_hint">Username</string>
     <string name="gv_prompt_password_hint">Password</string>
