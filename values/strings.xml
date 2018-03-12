@@ -22,17 +22,6 @@
     <string name="menu_share">Share…</string>
 
     <!-- Menu item: Switch to another browser to open the currently visible page. %1$s will be
-      replaces with the name of the browser like: "Open with Firefox" or "Open with Chrome". Some
-      links can be opened by native apps that aren't a browser, e.g. "Open with YouTube" -->
-    <string name="menu_open_with_default_browser">Open with %1$s</string>
-
-    <!-- Menu item: Switch to another browser to open the currently visible page. This menu item
-      will be shown if there are multiple browsers and we do not know which one is the default
-      browser or in case Firefox for Fire TV is actually the default browser. Clicking this menu item will show
-      a screen with multiple browsers (or other apps that can open the current URL) to choose from. -->
-    <string name="menu_open_with_a_browser">Open with…</string>
-
-    <!-- Menu item: Switch to another browser to open the currently visible page. %1$s will be
       replaced with the name of the browser like: "Open in Firefox" or "Open in Chrome". Some
       links can be opened by native apps that aren't a browser, e.g. "Open in YouTube" -->
     <string name="menu_open_with_default_browser2">Open in %1$s</string>
@@ -178,6 +167,7 @@
     <string name="preference_autocomplete_add_error">Double-check the URL you entered.</string>
 
     <string name="preference_language">Language</string>
+
     <!-- This is shown when the user hasn't set a focus specific language, i.e. when Focus
          is using the system default language. -->
     <string name="preference_language_systemdefault">System default</string>
@@ -208,6 +198,7 @@
     <string name="preference_performance_block_webfonts">Block Web fonts</string>
     <!-- This text is shown below the setting for disabling web fonts. Some websites use icons/images from a font and those do not show up if fonts are blocked.-->
     <string name="preference_performance_block_webfonts_summary">May result in missing icons or images</string>
+
     <string name="preference_performance_block_images">Block images</string>
 
     <!-- This preference does not set Focus as the default browser but instead links to Android's
