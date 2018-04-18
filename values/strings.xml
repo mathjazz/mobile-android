@@ -598,6 +598,8 @@ be temporary, and you can try again later.</li>
     <string name="notification_pinned_site">Pinned to Firefox TV homescreen</string>
     <string name="notification_unpinned_site">Removed from Firefox TV homescreen</string>
 
+    <string name="pocket_video_feed_recommended_videos_title">Recommended videos</string>
+
     <!-- Text shown in prompts for GeckoView -->
     <string name="gv_prompt_username_hint">Username</string>
     <string name="gv_prompt_password_hint">Password</string>
