@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Content description (not visible, for screen readers etc.): Description for the overflow menu button in the browser toolbar. -->
+    <string name="mozac_browser_toolbar_menu_button">Menu</string>
     <!-- ####################################################################################### -->
     <!-- ## Put only strings into this file that should be translated. Move all other strings ## -->
     <!-- ## into a separate file like strings_references.xml                                  ## -->
