@@ -6,6 +6,11 @@
     <!-- The brand name of our partner company, Pocket. -->
     <string name="pocket_brand_name">Pocket</string>
 
+    <!-- ####################################################################################### -->
+    <!-- ## Put only strings into this file that should be translated. Move all other strings ## -->
+    <!-- ## into a separate file like strings_references.xml                                  ## -->
+    <!-- ####################################################################################### -->
+
     <!-- Label used for buttons, e.g. in dialogs -->
     <string name="action_cancel">Cancel</string>
     <!-- Label used for buttons, e.g. in dialogs -->
@@ -232,12 +237,6 @@
     <string name="preference_privacy_block_content_summary2">Enabling may cause some pages to behave unexpectedly</string>
 
     <string name="preference_privacy_category_cookies">Block cookies</string>
-
-    <string-array name="preference_privacy_cookies_options">
-        <item>@string/preference_privacy_should_block_cookies_yes_option</item>
-        <item>@string/preference_privacy_should_block_cookies_third_party_only_option</item>
-        <item>@string/preference_privacy_should_block_cookies_no_option</item>
-    </string-array>
 
     <!-- Three options for Cookie blocking. Yes (All cookies Blocked), Block 3rd-party cookies
     only (Only 3rd-party Cookies Blocked), No (No cookies blocked) -->
