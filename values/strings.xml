@@ -4,6 +4,7 @@
     <string name="mozac_feature_tabs_toolbar_tabs_button">Tabs</string>
     <!-- Content description (not visible, for screen readers etc.): Description for the overflow menu button in the browser toolbar. -->
     <string name="mozac_browser_toolbar_menu_button">Menu</string>
+    <string name="mozac_ui_tabcounter_description">Tab Counter</string>
     <!-- ####################################################################################### -->
     <!-- ## Put only strings into this file that should be translated. Move all other strings ## -->
     <!-- ## into a separate file like strings_references.xml                                  ## -->
