@@ -656,6 +656,9 @@ be temporary, and you can try again later.</li>
     <!-- The title displayed below blank tiles -->
     <string name="blank_tile_title">Add website</string>
 
+    <!-- This title is shown on a dialog that prompts the user if they want to clear their cookies and site data.  -->
+    <string name="dialog_clear_cookies_title">Clear Cookies?</string>
+
     <!-- Text shown in prompts for GeckoView -->
     <string name="gv_prompt_username_hint">Username</string>
     <string name="gv_prompt_password_hint">Password</string>
