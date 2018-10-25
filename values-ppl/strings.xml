@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ####################################################################################### -->
+    <!-- ## Put only strings into this file that should be translated. Move all other strings ## -->
+    <!-- ## into a separate file like strings_references.xml                                  ## -->
+    <!-- ####################################################################################### -->
+
+    <!-- Label used for buttons, e.g. in dialogs -->
+    <string name="action_cancel">Shikajkawa</string>
+    <!-- Label used for buttons, e.g. in dialogs -->
+    <string name="action_ok">Yek</string>
+
+    <string name="action_save">Shikana</string>
+
+    <!-- This text is shown in the URL bar when it's empty -->
+    <string name="urlbar_hint">Shiktemu u shiktajkwilu ne dirección</string>
+
+    <string name="teaser">Navegación ichtaka automaticaj.
+Shipashalu. Shitapupulu. Shikchiwa uksenpa.</string>
+
+    <!-- "Snackbar" shown after the user has pressed the 'erase' button at the end of a browsing session -->
+    <string name="feedback_erase">Mupupujtuk mutatemulis panutuk.</string>
+
+    <!-- This label is shown below the URL bar as soon as the user enters text. Clicking the label will perform a search -->
+    <string name="search_hint">Shiktemu %1$s</string>
+
+    <!-- Menu item: Share the currently visible page -->
+    <string name="menu_share">Shiktakuli...</string>
+
+    <!-- Menu item: Report an issue on the current site -->
+    <string name="menu_report_site_issue">Shina tay te yek</string>
+
+    <!-- Menu item: Switch to another browser to open the currently visible page. %1$s will be
+      replaced with the name of the browser like: "Open in Firefox" or "Open in Chrome". Some
+      links can be opened by native apps that aren't a browser, e.g. "Open in YouTube" -->
+    <string name="menu_open_with_default_browser2">Shiktapu tik %1$s</string>
+
+    <!-- Menu item: Switch to another browser to open the currently visible page. This menu item
+      will be shown if there are multiple browsers and we do not know which one is the default
+      browser or in case Focus is actually the default browser. Clicking this menu item will show
+      a screen with multiple browsers (or other apps that can open the current URL) to choose from. -->
+    <string name="menu_open_with_a_browser2">Shiktapu tik…</string>
+
+    <!-- Menu item: Add the current page as a shortcut to the device's home screen (launcher). -->
+    <string name="menu_add_to_home_screen">Shiktali tik Achtu Iswat</string>
+
+    <!-- Menu item: Shows information about features and changes that are new to this version -->
+    <string name="menu_whats_new">Tay Yankwik</string>
+    <string name="menu_settings">Kan titajshitia</string>
+    <string name="menu_about">Taipanpa</string>
+    <string name="menu_help">Shinechpalewi</string>
+    <string name="menu_rights">Ne tay mupal</string>
+
+    <!-- Menu item: This is the label for a menu entry that shows how many trackers have been blocked
+         for the currently loaded website. The number of blocked trackers is shown below this label.
+         Next to this label is a switch that allows the user to temporarily enable / disable the
+         blocking of trackers for the current browsing session - for example if the current website
+         doesn't work correctly with blocked content. -->
+    <string name="menu_trackers_blocked_title">Tapachiwiani tentzaktuk</string>
+
+    <!-- This is a small text at the bottom of the menu shown in a "custom tab" for branding purposes.
+     See https://github.com/mozilla-mobile/focus-android/issues/2106
+      %1$s will be replaced by the app name (e.g. Firefox Focus) -->
+    <string name="menu_custom_tab_branding">Kichijtuk %1$s</string>
+
+    <!-- This is the title of a dialog that shows all the share targets (apps or contacts) when
+         sharing an URL. -->
+    <string name="share_dialog_title">Shiktakuli tik</string>
+
+    <!-- While a browsing session is active (in the foreground or background) we will show a notification
+         so that the user doesn't forget about the website still being open. This text is shown in
+         the notification. Clicking the notification will have the same effect as clicking the "erase"
+         button in the application. -->
+    <string name="notification_erase_text">Shikpupu mutatemulis panutuk</string>
+
+    <!-- Notification action to open Focus and resume the current browsing session. -->
+    <string name="notification_action_open">Shiktapu</string>
+
+    <!-- Notification action to erase the current browsing session AND switch to Focus (bring it
+         to the foreground) -->
+    <string name="notification_action_erase_and_open">Shikpupu wan shiktapu</string>
+
+    <!-- On Android 7+ users can add a shortcut for erasing the browsing history to the home screen.
+         This is the label for this shortcut. Android recommends a maximum length of 10 characters. -->
+    <string name="shortcut_erase_short_label">Shikpupu</string>
+
+    <!-- The same as 'shortcut_erase_short_label' but more descriptive. The launcher shows this
+         instead of the short title when it has enough space. Android recommends a maximum length
+         of 25 characters. -->
+    <string name="shortcut_erase_long_label">Shikpupu mutatemulis panutuk</string>
+
+    <!-- This is the label of an action we offer when the user selects text in other third-party apps.
+         Clicking this action will launch Focus and perform a search in the default search engine. -->
+    <string name="text_selection_search_action">Shitatejtemu ichtaka</string>
+
+    <!-- Content of about focus. Argument 1 is the app name (Firefox Focus/Firefox Klar/etc).
+         Argument 2 is the url for the learn-more link. -->
+    <string name="about_content"><![CDATA[<p>%1$s metzmaka control.</p>
+<p>Shikwi ken se ichtaka taitani:
+  <ul>
+    <li>Shitatejtemu wan shitajtachia tik ne aplicación</li>
+    <li>Shiktentzakwa ne tapachiwiani (ush shitajshitia uksenpa pal tikajkawa tekiti ne tapachiwiani)</li>
+    <li>Shikpupu pal tikwilewa cookies wan ne tatemulis panutuk</li>
+  </ul>
+</p>
+<p>Mozilla kichiwtuk ne %1$s. Tiknekit tikajsit tikpiat se Internet yek wan tapujtuk.<br/>
+<a href="%2$s">Learn more</a></p>]]></string>
+
+    <!-- Header for the Privacy and Security settings menu -->
+    <string name="preference_privacy_and_security_header">Ichtakachiwalis wan tamanawilis</string>
+
+    <!-- Preference summary for settings related to privacy and security -->
+    <string name="preference_privacy_and_security_summary">Kan tikishpejpena ne tapachiwiani, cookies, wan tamatil</string>
+
+    <!-- Preference category description for settings related to search, set default
+    and autocomplete are settings a user can find and change inside the "search" settings screen -->
+    <string name="preference_search_summary">Shiktali ma senpa nemi achtu, ma temi isel</string>
+
+    <!-- Preference category description for settings screen for settings related to Mozilla -->
+    <!-- About the app and help are links that are inside this menu -->
+    <!-- %1$s will be replaced by the app name (e.g. Firefox Focus) -->
+    <string name="preference_mozilla_summary">Ipanpa %1$s, tapalewilis</string>
+
+    <!-- Preference category for ad blocking and tracking protection settings -->
+    <string name="preference_category_tracking_protection">Shikmanawi itech tapachiwiani</string>
+
+    <!-- Preference category for settings related to controlling web content -->
+    <string name="preference_category_web_content">Tay nemi ijtik ne Matapan</string>
+
+    <!-- Preference category: stealth settings for while switching apps -->
+    <string name="preference_category_switching_apps">Shikpata ne aplicación</string>
+
+    <!-- Preference category for General Settings -->
+    <string name="preference_category_general">Muchi tajtaya</string>
+
+    <!-- Preference category for settings about sending usage data -->
+    <string name="preference_category_data_collection_use">Kan tiksenputzua tamatil wan ken tikwi</string>
+
+    <string name="preference_category_search">Shiktemu</string>
+
+    <!-- Title of "switch" preference that enables/disables search suggestions -->
+    <string name="preference_show_search_suggestions">Shikneshti tay niweliskia nikishtemua</string>
+    <!-- Description of the preference that enables/disables search suggestions
+        %1$s will be replaced by the app name (e.g. Firefox Focus) -->
+    <string name="preference_show_search_suggestions_summary">%1$s yawi kituktia tay titajkwilua tik ne barraj ipal dirección tik ne motor tatemualis</string>
+
+    <!-- This label is shown below the name of the default search engine in settings -->
+    <string name="preference_search_engine_default">Achtu configuración</string>
+
+    <!-- Text that is shown below a "switch" preference that is enabled. -->
+    <string name="preference_state_on">Timakaktuk</string>
+
+    <!-- Text that is shown below a "switch" preference that is disabled. -->
+    <string name="preference_state_off">Sewtuk</string>
+
+    <!-- Item in settings that will open a new preference screen for configuring the URL autocomplete behavior. -->
+    <string name="preference_subitem_autocomplete">URL temi isel</string>
+
+    <!-- Action at the bottom of the list of custom autocomplete URLs that will open a new screen to add a new URL to the list. -->
+    <string name="preference_autocomplete_action_add">+Shiktalili ne mu-URL</string>
+
+    <!-- Title of the screen for adding custom autocomplete URLs. -->
+    <string name="preference_autocomplete_title_add">Shiktalili ne mu-URL</string>
+
+    <!-- Label for the button to quick add custom autocomplete URLs. -->
+    <string name="custom_autocomplete_quick_add">Shiktalili ne mu-URL</string>
+
+    <!-- Preference category for settings about cookies and site data -->
+    <string name="preference_category_cookies">Cookies wan ne idatoj ne sitioj</string>
+
+    <!-- Preference category for settings about data choices -->
+    <string name="preference_category_data_choices">Kan tikishpejpena ne tamatil</string>
+
+    <!-- Title of the screen for removing custom autocomplete URLs. -->
+    <string name="preference_autocomplete_title_remove">Shikishti tay tikmajmachijtuk tik ne URLs</string>
+
+    <!-- A link to SUMO at autocomplete settings. -->
+    <string name="preference_autocomplete_learn_more">Shikmatiuk</string>
+
+    <!-- Preference summary: Custom (user-defined) autocomplete URLs. -->
+    <string name="preference_autocomplete_custom_summary">Shiktali u shina ken taja tikneki ma temi isel ne URLs.</string>
+
+    <!-- Label for the "custom autocomplete URL" input field -->
+    <string name="preference_autocomplete_add_title">Shiktali ne URL</string>
+
+    <!-- "Hint" text for the "custom autocomplete URL" input field. Shown when the field is empty. -->
+    <string name="preference_autocomplete_add_hint">Shiksalu ush shikishtuka ne URL</string>
+
+    <!-- Example how a custom domain autocomplete URL be added (e.g. without http://) -->
+    <string name="preference_autocomplete_add_example2">Machiut: mozilla.org</string>
+
+    <!-- To be removed once the new hint has been translated -->
+    <string name="preference_autocomplete_add_example">Machiut: example.com</string>
+
+    <!-- Confirmation "snackbar" shown after a new custom autocomplete URL has been added. -->
+    <string name="preference_autocomplete_add_confirmation">Yankwik URL machijchiwtuk wan talijtuk.</string>
+
+    <!-- Menu item to remove existing autocomplete URLs. -->
+    <string name="preference_autocomplete_menu_remove">Shikishti</string>
+
+    <!-- Content description (not visible, for screen readers etc.): Button that will delete all selected custom autocomplete URLs. -->
+    <string name="preference_autocomplete_action_remove_content_description">Shikishti</string>
+
+    <!-- Error message shown if the entered custom autocomplete URL is not valid or empty. -->
+    <string name="preference_autocomplete_add_error">Shikpepeta uksenpa ne URL tiktajkwiluj.</string>
+
+    <string name="preference_language">Taketzalis</string>
+    <!-- This is shown when the user hasn't set a focus specific language, i.e. when Focus
+         is using the system default language. -->
+    <string name="preference_language_systemdefault">Achtutalijtuk sistemaj</string>
+
+    <string name="preference_category_privacy">Tay nemi ichtaka</string>
+    <string name="preference_privacy_block_ads">Shiktentzakwa ne tapachiwiani ipal anuncioj</string>
+    <string name="preference_privacy_block_ads_summary">Sejse anuncioj kishpelwiat ne sitioj kan tipashalua, manelka tesu tikpachua</string>
+    <string name="preference_privacy_block_analytics">Shiktentzakwa ne tapachiwiani tapepeta</string>
+    <string name="preference_privacy_block_analytics_summary">Ipal tiksentalia, tikishpepeta wan tiktamachiwa tajtaya kwak titamatuka wan titamatilua</string>
+    <string name="preference_privacy_block_social">Shiktentzakwa ne tajtapachiwiani kimatit kan tinemi</string>
+    <string name="preference_privacy_block_social_summary">Muishtukaktuk kan tipashalua pal metzishpelwia wan pal kineshtia ken yaja tekiti ken ne bojbotón pal tiktakulia</string>
+    <string name="preference_privacy_block_content">Shiktentzakwa ujukseuk tapachiwiani</string>
+    <string name="preference_privacy_block_content_summary2">Asu tiktimaka, sejseuk iswat welit tekitit ken te tikchia</string>
+    <string name="preference_privacy_category_cookies">Shiktentzakwa cookies</string>
+
+    <!-- Three options for Cookie blocking. Yes (All cookies Blocked), Block 3rd-party cookies
+    only (Only 3rd-party Cookies Blocked), No (No cookies blocked) -->
+    <string name="preference_privacy_should_block_cookies_no_option">Te</string>
+    <string name="preference_privacy_should_block_cookies_third_party_only_option">Shiktentzakwa semaya ne cookies ipal sejseuk</string>
+    <string name="preference_privacy_should_block_cookies_yes_option">Eje</string>
+
+    <!-- Preference Title: Biometrics can be used to unlock Focus if the previous session's data was not erased by the user. -->
+    <string name="preference_security_biometric">Shiktali ne itashkalchin mumapipil pal tikalaki tik ne aplicación</string>
+    <!-- Preference Summary: Biometrics (iris scan, fingerprint, or facial scan) can be used to unlock Focus if the app had a URL
+        open when the app was last run to ensure that only the phone's owner can view a previous session.
+        %1$s will be replaced by the app name (e.g. Firefox Focus) -->
+    <string name="preference_security_biometric_summary">Ne itashkaltzin mumapipil weli kimakishtia %1$s su se URL nemia tapujtuk tik ne aplicación. Yawi nemi tik modoj ichtaka.</string>
+
+    <!-- Preference Title: Secure Mode is a setting that prevents the app's content to show up in the "recent apps" screen
+         and prevents the user from taking screenshots or casting the app to other displays. -->
+    <string name="preference_privacy_secure_mode">Tay ichtaka</string>
+    <!-- Preference Summary: Stealth mode (previously "Secure mode") is a setting that prevents the
+     app's content (in our case especially the content of webpages) to show up in the "recent apps"
+     screen. Additionally Android will prevent the user from taking screenshots or casting the app
+     to other displays. -->
+    <string name="preference_privacy_stealth_summary">Shikinaya ijiswat kwak tikpata aplicación wan maka shikajkawa ma muana capturaj ipal pantallaj.</string>
+
+    <string name="preference_category_security">Tetajpialis</string>
+
+    <string name="preference_category_performance">Shiktamachiwa ne itekiw</string>
+    <string name="preference_performance_block_webfonts">Shiktentzakwa ne tajkwilultzin ipal ne Weymatat</string>
+    <!-- This text is shown below the setting for disabling web fonts. Some websites use icons/images from a font and those do not show up if fonts are blocked.-->
+    <string name="preference_performance_block_webfonts_summary">Anka puliwisket ijiconoj wan kwijkwikwil</string>
+
+    <string name="preference_performance_block_javascript">Shiktzakwa JavaScript</string>
+    <!-- This text is shown below setting for disabling JavaScript. Some websites may not work correctly when JavaScript is disabled -->
+    <string name="preference_performance_block_javascript_summary">Ne iswat weli mutemiltia uk talul, melka tesu weli tekiti ken taja te tikneki</string>
+
+    <!-- This preference does not set Focus as the default browser but instead links to Android's
+     "default apps" settings screen or if not supported by this Android version to a SUMO page describing
+     how to set Focus as a default browser.
+      %1$s will be replaced by the app name (e.g. Firefox Focus) -->
+    <string name="preference_default_browser2">Shikchiwa %1$s ken ne achtutalijtuk tajtachialis</string>
+
+    <string name="preference_category_mozilla">Mozilla</string>
+    <string name="preference_mozilla_telemetry2">Shiktitani ne tamatil ipanpa keski seujti nipashalua</string>
+
+    <!-- A link to SUMO at the end of the summary (preference_mozilla_telemetry_summary2) of the "Send anonymous usage data" setting. -->
+    <string name="preference_mozilla_telemetry_summary">Shikmatiuk</string>
+
+    <!-- Item in Preferences that shows the about page. Parameter 1 is the app name, i.e. Firefox Focus/Firefox Klar. -->
+    <string name="preference_about">Ipanpa %1$s</string>
+
+    <!-- Action for restoring the default list of search engines -->
+    <string name="preference_search_restore">Shimukwepa ka achtutalijtuk motor tatemua</string>
+
+    <string name="preference_search_remove_title">Shikishti muchi ne tepusyulu taishtemua</string>
+    <string name="preference_search_remove">Shikishti</string>
+
+    <!-- Title: Homescreen tips settings toggle to determine whether or not tips are displayed when
+     a user first launches the app. -->
+    <string name="preference_homescreen_tips">Shikneshtili tanawatilis ipal ne achtu iswat</string>
+
+    <!-- Clickable action text that shows when user long-presses on a search engine search field (this is similar to paste or copy when long-pressing a text field) -->
+    <string name="action_option_add_search_engine">Shiktali se motor tatemualis</string>
+
+    <string name="search_add_manually_name_hint">Shiktemu ne itukay ne motor</string>
+    <string name="search_add_manually_string">Shiktemu ne mekat yawi mukwi</string>
+    <string name="search_add_manually_save">Shiktajpia</string>
+
+    <!-- Example of search engine url -->
+    <string name="search_add_manually_example">Machiut: machiut.com/search/?q=%s</string>
+
+    <string name="search_add_confirmation">Shiktali se yankwik tepusyulu taishtemua.</string>
+
+    <string name="search_add_error_empty_name">Shikishtuka ne itukay ne tepusyulu taishtemua</string>
+    <string name="search_add_error_duplicate_name">Seuk tepusyulu taishtemua kipiaya ne sesan itukay.</string>
+
+    <string name="search_add_error_empty_search">Shiktemu tay tikneki</string>
+
+    <!-- Content description (not visible, for screen readers etc.): Clear text in URL bar -->
+    <string name="content_description_clear_input">Shikpupu ne tajkwilujtuk</string>
+
+    <!-- Content description (not visible, for screen readers etc.): Clicking on the website overlay
+     while in typing mode will dismiss and go back to the browser. This text will be read when the
+     overlay if focused. See https://github.com/mozilla-mobile/focus-android/issues/50 -->
+    <string name="content_description_dismiss_input">Shikishti</string>
+
+    <!-- Content description (not visible, for screen readers etc.): Erase button: Erase the browsing
+     history and go back to the home screen. -->
+    <string name="content_description_erase">Shikpupu mutatemulis panutuk</string>
+
+    <!-- If the user has multiple tabs open we will show an addition "floating action button" showing how many tabs are open.
+     This string is not displayed and read only by screenreaders. %1$s will be replaced with the number of open tabs. This
+      button will only be visible when there is more than one tab open (>= 2). -->
+    <string name="content_description_tab_counter">Pestañaj tajtapujtuk: %1$s</string>
+
+    <!-- Content description (not visible, for screen readers etc.): Lock icon showed in the URL bar for
+     https pages.. -->
+    <string name="content_description_lock">Te kanaj teyek keman nikneki nimusalua</string>
+
+    <!-- This text is not visible. Instead it will be read by the accessibility service once we start
+     loading a website -->
+    <string name="accessibility_announcement_loading">Mutemiltia</string>
+
+    <!-- This text is not visible. Instead it will be read by the accessibility service once we
+     finished loading a website -->
+    <string name="accessibility_announcement_loading_finished">Iswat matapan mutemiltijtuk</string>
+
+    <!-- Content description (not visible, for screen readers etc.): "Three dot" menu button. -->
+    <string name="content_description_menu">Ukchiupi taishpejpenalis</string>
+
+    <!-- Content description (not visible, for screen readers etc.): Navigate forward (browsing history) -->
+    <string name="content_description_forward">Shipashalu ka ishpan</string>
+
+    <!-- Content description (not visible, for screen readers etc.): Reload current website -->
+    <string name="content_description_reload">Shiktemilti ne sitioj web uksenpa</string>
+
+    <!-- Content description (not visible, for screen readers etc.): Navigate back (browsing history) -->
+    <string name="content_description_back">Shimukwepa ka ipan</string>
+
+    <!-- Content description (not visible, for screen readers etc.): Stop loading the current website. This button will turn into the refresh button once loading has been completed (see content_description_reload) -->
+    <string name="content_description_stop">Makaya shiktemilti ne sitioj web</string>
+
+    <!-- Content description (not visible, for screen readers etc.): Custom Tab exit button - closes the custom tab and returns to the previous app. -->
+    <string name="content_description_customtab_exit">Shimukwepa ka ne aplicación panutuk</string>
+
+    <!-- Content description (not visible, for screen readers etc.): This is the description for the ImageView in the menu that displays
+         the number of trackers blocked for the current session -->
+    <string name="content_description_trackers_blocked">Keski tapachiwiani ishtzaktuk</string>
+
+    <!-- Content description (not visible, for screen readers etc.): This is the description for the switch in the menu that temporarily disables/enables
+         content blocking for the current session -->
+    <string name="content_description_blocking_switch">Shiktentzakwa muchi ne tapachiwiani</string>
+
+    <string name="your_rights">Tay mupal</string>
+
+    <string name="external_app_prompt_title">Shiktapu ne ilpika tik seuk aplicación</string>
+    <!-- This string is shown when the user has clicked a link that needs to be opened in a different app.
+         Argument 2 is the external app name, argument 1 is our name (i.e. Firefox Focus, or Firefox Klar). -->
+    <string name="external_app_prompt">Tiweli tikisa tik %1$s pal tiktapua ini ilpika tik %2$s.</string>
+    <!-- This text is the title of a dialog shown if no app could be found for a custom link protocol. -->
+    <string name="external_app_prompt_no_app_title">Shikajsi se aplicación weli kitapua ne ilpika</string>
+    <!-- This text is shown in a dialog if no app could be found for a custom link protocol. %1$s is the name of the app (i.e. Firefox Focus) and %2$s is the name of
+         the app store installed on the device (usually that's Google Play). -->
+    <string name="external_app_prompt_no_app">Te kanaj se aplicación weli kitapua ini ilpika. Tiweli tikisa tik %1$s pal tiktemua %2$s ipal se aplicación weli kitapua.
+
+</string>
+    <!-- This label is shown above a list of apps that can be used to open a given link -->
+    <string name="external_multiple_apps_matched_exit">¿Tikneki tikisa tik ne ichtaka pashalulis?</string>
+
+    <!-- Snackbar that will be displayed after a download has completed. %1$s will be replaced with the file name. -->
+    <string name="download_snackbar_finished">%1$s tamik</string>
+
+    <!-- Snackbar action to immediately open the successfully downloaded file. -->
+    <string name="download_snackbar_open">Shiktapu</string>
+
+    <!-- Download dialog: Warns users that downloaded files will not be deleted even when erasing history. %1$s will be replaced with the app name (i.e. Firefox Focus). -->
+    <string name="download_dialog_warning"><![CDATA[Ne archivoj temultijtuk <b>te yawi mupupua </b> kemen tikpupua %1$s tay tikitztuk.]]></string>
+
+    <!-- Title of download dialogue -->
+    <string name="download_dialog_title">Shiktemulti ne archivoj</string>
+
+    <!-- Option in download dialogue to cancel a download -->
+    <string name="download_dialog_action_cancel">Shikajkawa</string>
+
+    <!-- Option in download dialogue to start a download -->
+     <string name="download_dialog_action_download">Shitemulti</string>
+
+    <!-- The page html title (i.e. the <title> tag content) -->
+    <string name="errorpage_title">Se uijkayu panuk keman mutemultia ne iswat</string>
+    <string name="errorpage_refresh">Shikejeku uksenpa</string>
+
+    <string name="error_connectionfailure_title">Tesu weli musalua</string>
+
+    <string name="error_timeout_title">Tea tinemi salujtuk</string>
+
+    <string name="error_hostLookup_title">Ne servidor te muajsik</string>
+
+
+    <string name="error_malformedURI_title">Ne dirección tesu yek</string>
+
+    <string name="error_redirectLoop_title">Ne iswat tesu muchiwa redireccionar yek</string>
+
+    <string name="error_unsupportedprotocol_title">Ne dirección tesu mumati</string>
+
+    <string name="error_sslhandshake_title">Tesu muajshitij ne conexión seguruj</string>
+
+    <string name="error_generic_title">Ups</string>
+    <string name="error_generic_message">Anka se te kiajkawa mutemiltia ini iswat.</string>
+
+    <!-- Label used in the contextmenu shown when long-pressing on a link -->
+    <string name="contextmenu_link_share">Shiktakuli ne ilpika</string>
+    <!-- Label used in the contextmenu shown when long-pressing on a link -->
+    <string name="contextmenu_link_copy">Shikupina ne idirección ne ilpika</string>
+    <!-- Label used in the contextmenu shown when long-pressing on an image -->
+    <string name="contextmenu_image_share">Shiktakuli ne kwikwil</string>
+    <!-- Label used in the contextmenu shown when long-pressing on an image -->
+    <string name="contextmenu_image_copy">Shikupina ne idirección ne kwikwil</string>
+    <!-- Label used in the contextmenu shown when long-pressing on an image -->
+    <string name="contextmenu_image_save">Shikana ne kwikwil</string>
+    <string name="contextmenu_open_in_new_tab">Shiktapu ne ilpika tik se yankwik pestañaj</string>
+
+    <!-- First run tour (Default browser): Title -->
+    <string name="firstrun_defaultbrowser_title">Shikchikawa ne muichtakanemilis</string>
+
+    <!-- First run tour (Search): Title -->
+    <string name="firstrun_search_title">Ken tikneki titatemua</string>
+
+    <!-- First run tour (Shortcut): Title -->
+    <string name="firstrun_shortcut_title">Shiktalili ne achtu iswat se atajoj</string>
+
+    <!-- First run tour (Privacy): Title -->
+    <string name="firstrun_privacy_title">Shinemi ichtaka mujmusta</string>
+
+    <string name="firstrun_close_button">Yek nemi, nikmatiaya!</string>
+    <string name="firstrun_skip_button">Te nikneki nikita</string>
+    <string name="firstrun_next_button">Ne witz</string>
+
+    <!-- Indicator that no trackers are being blocked because content blocking is disabled; normally shows the number of blocked trackers -->
+    <string name="content_blocking_disabled">-</string>
+
+    <!-- Label of the action that will add the current website to the home screen (shown in the confirmation dialog). -->
+    <string name="dialog_addtohomescreen_action_add">Shiktali</string>
+
+    <!-- Label of the action that will close the dialog and not add anything to the home screen (shown in the confirmation dialog). -->
+    <string name="dialog_addtohomescreen_action_cancel">Shikajkawa</string>
+
+    <!-- Label for a button in the "tabs tray" to erase the browsing history (closes all tabs and removes associated data). -->
+    <string name="tabs_tray_action_erase">Shikpupu kan tipashaluj</string>
+
+    <!-- If the user decides to open the current page in another browser and if Firefox is not installed then we show this
+      item in the list of browsers. Clicking it will open the app store installed on the device (usually that's Google Play). -->
+    <string name="download_firefox">Shiktemulti Firefox</string>
+
+    <!-- Text shown in prompts for GeckoView -->
+    <string name="gv_prompt_username_hint">Mutukay usuarioj</string>
+    <string name="gv_prompt_password_hint">Ichtaka taketzalis</string>
+    <string name="gv_prompt_clear">Shikpupu</string>
+
+    <!-- Text shown in Security Information Popup -->
+    <!-- Text to denote secure or insecure connection -->
+    <string name="security_popup_secure_connection">Timusalua wan nejmachnemi</string>
+    <string name="security_popup_insecure_connection">Timusalua wan tesu nejmachnemi</string>
+
+    <string name="preference_autocomplete_duplicate_url_error">URL nemia</string>
+
+    <!-- Label for the Find in page button -->
+    <string name="find_in_page">Shikajsi tik ne iswat</string>
+
+    <!-- Watermark/Hint for the find in page input field -->
+    <string name="find_in_page_input">Shikajsi tik ne iswat</string>
+
+    <!-- String to show the number of results found in the page and the
+        position the user is at. The first argument is the position, the second argument is the total -->
+    <string name="find_in_page_result">%1$d/%2$d</string>
+    <!-- String to be read by the accessibility service presenting the number of results found in the page
+        and the position the user is at. The first argument is the position, the second argument is the total -->
+    <string name="accessibility_find_in_page_result">%1$d ipal %2$d</string>
+
+    <!-- String to be read by the accessibility service when focusing the next result button -->
+    <string name="accessibility_next_result">Shikajsi tay yawi kisa uksenpa</string>
+    <!-- String to be read by the accessibility service when focusing the previous result button -->
+    <string name="accessibility_previous_result">Shikajsi tay kiski yakin</string>
+    <!-- String to be read by the accessibility service when focusing the dismiss button in the "find in page" UI -->
+    <string name="accessibility_dismiss_find_in_page">Maka shikwi tay muajsik tik ne iswat</string>
+    
+    <!-- Http Authentication Popup: Title -->
+    <string name="http_auth_dialog_title">Muneki ma shina kaj taja</string>
+    <!-- Http Authentication Popup: Username -->
+    <string name="http_auth_dialog_username">Itukay muusuarioj</string>
+    <!-- Http Authentication Popup: Password -->
+    <string name="http_auth_dialog_password">Constraseñaj</string>
+
+    <!-- Displayed after a user long presses on the URL in a custom tab to copy the URL -->
+    <string name="custom_tab_copy_url_action">URL kupintuk</string>
+
+    <!-- Title for the fingerprint authentication dialog box that is shown to the user when opening the app.
+     %1$s is replaced with the app name -->
+    <string name="biometric_auth_title">Shikmakishti %1$s</string>
+
+    <!-- String to be placed inside the string: enable_search_suggestion_subtitle,
+        which will be a "Learn More" link. -->
+    <string name="enable_search_suggestion_subtitle_learnmore">Shikmatiuk</string>
+
+    <!-- Label used for the "NO button" for the prompt to enable search suggestions -->
+    <string name="enable_search_suggestions_no">Tesu</string>
+
+    <!-- Label used for the "YES button" for the prompt to enable search suggestions -->
+    <string name="enable_search_suggestions_yes">Eje</string>
+
+    <!-- Button to dismiss the message displayed  when using a search engine that doesn't provide suggestions-->
+    <string name="dismiss_no_suggestions_prompt_button">Shikishti</string>
+
+    <!-- Tips displayed on the home view -->
+
+    <!-- Tip displayed on home view explaining how to add sites to homescreen
+    Argument 1 will be replaced with a line break in the application.-->
+    <string name="tip_add_to_homescreen"><![CDATA[Shikpachu sema senpa pal tikalaki tik ne ijiswat taja tikita mas%1$s Menu > Shiktalili tik Achtu Iswat]]></string>
+
+    <!-- Tip displayed on home view explaining how to make Focus the default browser
+    Argument 1 is the app name (Firefox Focus/Firefox Klar/etc).
+    The new line here must be kept as the second half of the string is clickable for the user. -->
+    <string name="tip_set_default_browser">Shiktapu sejse ilpika %1$s
+ Shikchiwa %1$s ken ne achtutalijtuk tajtachialis</string>
+
+    <string name="tip_open_in_new_tab">Shiktapu se ilpika tik se yankwik pestañaj
+ Shikpajpachu yek ne ilpika taja tikneki tik se iswat</string>
+
+    <!-- Tip displayed on home view explaining how to request the desktop version of a website.
+     Argument 1 will be replaced with a line break in the application. -->
+    <string name="tip_request_desktop"><![CDATA[Tiknekiskia nikita muchi ne escritorioj?%1$s Menu > Shiktajtani ne iswat ipal ne escritorioj]]></string>
+
+    <string name="preference_switch_autocomplete">Temi isel</string>
+    <string name="preference_category_autocomplete_preinstalled">Listaj achtutalijtuk URL</string>
+    <string name="preference_autocomplete_preinstalled_summary">Shiktimaka pal ma %1$s temi isel tik 450 URLs muishmattuk tik ne barraj direccion.</string>
+    <string name="preference_category_autocomplete_custom_urls">Shikmajmachiwa ne URLs</string>
+    <string name="preference_autocomplete_subitem_customlist">Shikmajmachiwa ne URLs</string>
+  </resources>
