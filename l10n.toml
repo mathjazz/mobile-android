@@ -104,4 +104,3 @@ locales = [
 [[paths]]
   reference = "values/strings.xml"
   l10n = "{l10n_base}/values-{android_locale}/strings.xml"
-
