@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- The %1$s will be replaced by the malicious website URL-->
+    <string name="mozac_browser_errorpages_safe_browsing_malware_uri_message"><![CDATA[<p>Die Seite auf %1$d wurde als attackierende Seite gemeldet und auf Grund Ihrer Sicherheitseinstellungen blockiert.</p>]]></string>
+
+    <!-- The %1$s will be replaced by the malicious website URL-->
+    <string name="mozac_browser_errorpages_safe_browsing_unwanted_uri_message"><![CDATA[
+  <p>Die Website auf %S wurde als Lieferant von unerwünschter Software gemeldet und auf Grund Ihrer Sicherheitseinstellungen blockiert.</p>
+  ]]></string>
+
+    <!-- The %1$s will be replaced by the malicious website URL-->
+    <string name="mozac_browser_errorpages_safe_harmful_uri_message"><![CDATA[<p>Die Seite auf %d wurde als potenziell gefährdende Seite gemeldet und auf Grund Ihrer Sicherheitseinstellungen blockiert.<p/>]]></string>
+
+    <!-- The %1$s will be replaced by the malicious website URL-->
+    <string name="mozac_browser_errorpages_safe_phishing_uri_message"><![CDATA[<p>Die Seite auf %s wurde als betrügerische Website gemeldet und auf Grund Ihrer Sicherheitseinstellungen blockiert.</p>]]></string>
     <!-- ####################################################################################### -->
     <!-- ## Put only strings into this file that should be translated. Move all other strings ## -->
     <!-- ## into a separate file like strings_references.xml                                  ## -->
@@ -205,6 +219,7 @@ Surfen. Löschen. Wiederholen.</string>
     <string name="preference_autocomplete_add_error">Überprüfen Sie die eingegebene Adresse.</string>
 
     <string name="preference_language">Sprache</string>
+
     <!-- This is shown when the user hasn't set a focus specific language, i.e. when Focus
          is using the system default language. -->
     <string name="preference_language_systemdefault">Systemstandard</string>
@@ -218,6 +233,7 @@ Surfen. Löschen. Wiederholen.</string>
     <string name="preference_privacy_block_social_summary">Auf Websites eingebettet, um Ihre Besuche zu verfolgen und Funktionen wie Links zum Teilen anzuzeigen</string>
     <string name="preference_privacy_block_content">Andere Inhaltsverfolgung blockieren</string>
     <string name="preference_privacy_block_content_summary2">Dies kann dazu führen, dass manche Seiten sich ungewöhnlich verhalten</string>
+
     <string name="preference_privacy_category_cookies">Cookies blockieren</string>
 
     <!-- Three options for Cookie blocking. Yes (All cookies Blocked), Block 3rd-party cookies
@@ -454,6 +470,7 @@ Surfen. Löschen. Wiederholen.</string>
     <string name="contextmenu_image_copy">Grafikadresse kopieren</string>
     <!-- Label used in the contextmenu shown when long-pressing on an image -->
     <string name="contextmenu_image_save">Grafik speichern</string>
+    <!-- Label used in the contextmenu shown when long-pressing on a link -->
     <string name="contextmenu_open_in_new_tab">Link in neuem Tab öffnen</string>
 
     <!-- This is a warning shown in the browser's context menu (when long pressing an image). %1$s will be replaced with the long name of the app (e.g. Firefox Focus). -->
@@ -543,6 +560,11 @@ Surfen. Löschen. Wiederholen.</string>
     %2$s will be replaced with a URL linking to the GPL
     %3$s will be replaced with a URL linking to the tracking protection wiki page (e.g. https://wiki.mozilla.org/Security/Tracking_protection#Lists) -->
     <string name="your_rights_content5"><![CDATA[%1$s nutzt auch von Disconnect, Inc. angebotene Blockierlisten als separate und unabhängige Werke unter der <a href="%2$s">GNU General Public License3</a>, die <a href="%3$s">hier</a> verfügbar sind.]]></string>
+
+    <!-- Spoken to screen reader users when they focus the Pocket tile. Clicking this tile will take them to the
+         Pocket video recommendations feed.
+    %1$s will be replaced with the Pocket brand name. -->
+    <string name="pocket_home_a11y_tile_focused">Von %1$s empfohlene Videos</string>
 
     <!-- Text shown in prompts for GeckoView -->
     <string name="gv_prompt_username_hint">Benutzername</string>
