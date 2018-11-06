@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Alert dialog confirmation before download a file, this is the title. -->
     <string name="mozac_feature_downloads_dialog_title">Datei herunterladen</string>
 
     <!-- The %1$s will be replaced by the malicious website URL-->
-    <string name="mozac_browser_errorpages_safe_browsing_malware_uri_message"><![CDATA[<p>Die Seite auf %d wurde als attackierende Seite gemeldet und auf Grund Ihrer Sicherheitseinstellungen blockiert.</p>]]></string>
+    <string name="mozac_browser_errorpages_safe_browsing_malware_uri_message"><![CDATA[<p>Die Seite auf %s wurde als attackierende Seite gemeldet und auf Grund Ihrer Sicherheitseinstellungen blockiert.</p>]]></string>
 
     <!-- The %1$s will be replaced by the malicious website URL-->
     <string name="mozac_browser_errorpages_safe_browsing_unwanted_uri_message"><![CDATA[
-  <p>Die Website auf %s wurde als Lieferant von unerwünschter Software gemeldet und auf Grund Ihrer Sicherheitseinstellungen blockiert.</p>
+  <p>Die Website auf %r wusrsde als Lieferant von unerwünschter Software gemeldet und auf Grund Ihrer Sicherheitseinstellungen blockiert.</p>
   ]]></string>
 
     <!-- The %1$s will be replaced by the malicious website URL-->
