@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Alert dialog confirmation before download a file, this is the title. -->
+    <string name="mozac_feature_downloads_dialog_title">Prenesi datotekico</string>
+
+    <!-- Alert dialog confirmation before download a file, this is the positive action. -->
+    <string name="mozac_feature_downloads_dialog_download"></string>
+
+    <!-- The error message shown when a website cannot be loaded for an unknown reason. -->
+    <string name="mozac_browser_errorpages_generic_message"><![CDATA[ss]]></string>
+
     <!-- ####################################################################################### -->
     <!-- ## Put only strings into this file that should be translated. Move all other strings ## -->
     <!-- ## into a separate file like strings_references.xml                                  ## -->
@@ -205,6 +214,7 @@ Brskajte. Izbrišite. Ponovite.</string>
     <string name="preference_autocomplete_add_error">Preverite vneseni URL.</string>
 
     <string name="preference_language">Jezik</string>
+
     <!-- This is shown when the user hasn't set a focus specific language, i.e. when Focus
          is using the system default language. -->
     <string name="preference_language_systemdefault">Privzet v sistemu</string>
@@ -218,6 +228,7 @@ Brskajte. Izbrišite. Ponovite.</string>
     <string name="preference_privacy_block_social_summary">Vgrajeni na straneh za sledenje vašim obiskom in za prikaz možnosti, kot so gumbi za deljenje</string>
     <string name="preference_privacy_block_content">Zavračaj druge vsebinske sledilce</string>
     <string name="preference_privacy_block_content_summary2">Nastavitev lahko povzroči nepravilno delovanje nekaterih strani</string>
+
     <string name="preference_privacy_category_cookies">Zavračaj piškotke</string>
 
     <!-- Three options for Cookie blocking. Yes (All cookies Blocked), Block 3rd-party cookies
@@ -456,6 +467,7 @@ napaka začasna in lahko znova poskusite kasneje.</li>
     <string name="contextmenu_image_copy">Kopiraj naslov slike</string>
     <!-- Label used in the contextmenu shown when long-pressing on an image -->
     <string name="contextmenu_image_save">Shrani sliko</string>
+    <!-- Label used in the contextmenu shown when long-pressing on a link -->
     <string name="contextmenu_open_in_new_tab">Odpri povezavo v novem zavihku</string>
 
     <!-- This is a warning shown in the browser's context menu (when long pressing an image). %1$s will be replaced with the long name of the app (e.g. Firefox Focus). -->
