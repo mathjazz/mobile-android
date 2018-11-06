@@ -1,0 +1,18 @@
+basepath = "."
+
+locales = [
+  "cs",
+  "de",
+  "fr",
+  "it",
+  "pl",
+  "ru",
+  "sl",
+]
+
+[env]
+  l = "{l10n_base}/{locale}/"
+
+[[paths]]
+  reference = "en-US/strings.xml"
+  l10n = "{l}strings.xml"
