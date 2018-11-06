@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- The error message shown when the browser refuses to load a type of file that is considered unsafe. -->
+    <string name="mozac_browser_errorpages_unsafe_content_type_message"><![CDATA[
+<ul>
+  <li>Contattare il proprietario del sito web per informarlo del problema.</li>
+</ul>]]></string>
+
     <!-- ####################################################################################### -->
     <!-- ## Put only strings into this file that should be translated. Move all other strings ## -->
     <!-- ## into a separate file like strings_references.xml                                  ## -->
@@ -61,7 +68,7 @@ Naviga. Elimina. Ripeti.</string>
     <!-- This is a small text at the bottom of the menu shown in a "custom tab" for branding purposes.
      See https://github.com/mozilla-mobile/focus-android/issues/2106
       %1$s will be replaced by the app name (e.g. Firefox Focus) -->
-    <string name="menu_custom_tab_branding">Con tecnologia %1$s</string>
+    <string name="menu_custom_tab_branding">Con tecnologia %1$S</string>
 
     <!-- This is the title of a dialog that shows all the share targets (apps or contacts) when
          sharing an URL. -->
@@ -119,7 +126,7 @@ Naviga. Elimina. Ripeti.</string>
     <!-- Preference category description for settings screen for settings related to Mozilla -->
     <!-- About the app and help are links that are inside this menu -->
     <!-- %1$s will be replaced by the app name (e.g. Firefox Focus) -->
-    <string name="preference_mozilla_summary">Informazioni su %1$s, supporto</string>
+    <string name="preference_mozilla_summary">Informazioni su %1$S, supporto</string>
 
     <!-- Preference category for ad blocking and tracking protection settings -->
     <string name="preference_category_tracking_protection">Protezione antitracciamento</string>
@@ -205,6 +212,7 @@ Naviga. Elimina. Ripeti.</string>
     <string name="preference_autocomplete_add_error">Verifica l\'indirizzo inserito.</string>
 
     <string name="preference_language">Lingua</string>
+
     <!-- This is shown when the user hasn't set a focus specific language, i.e. when Focus
          is using the system default language. -->
     <string name="preference_language_systemdefault">Predefinita del sistema</string>
@@ -218,6 +226,7 @@ Naviga. Elimina. Ripeti.</string>
     <string name="preference_privacy_block_social_summary">Inseriti nei siti per tenere traccia delle visite e fornire funzionalità come i pulsanti di condivisione</string>
     <string name="preference_privacy_block_content">Blocca altri contenuti traccianti</string>
     <string name="preference_privacy_block_content_summary2">L’attivazione potrebbe causare problemi di funzionamento in alcune pagine</string>
+
     <string name="preference_privacy_category_cookies">Blocca cookie</string>
 
     <!-- Three options for Cookie blocking. Yes (All cookies Blocked), Block 3rd-party cookies
@@ -452,6 +461,7 @@ Naviga. Elimina. Ripeti.</string>
     <string name="contextmenu_image_copy">Copia indirizzo immagine</string>
     <!-- Label used in the contextmenu shown when long-pressing on an image -->
     <string name="contextmenu_image_save">Salva immagine</string>
+    <!-- Label used in the contextmenu shown when long-pressing on a link -->
     <string name="contextmenu_open_in_new_tab">Apri link in nuova scheda</string>
 
     <!-- This is a warning shown in the browser's context menu (when long pressing an image). %1$s will be replaced with the long name of the app (e.g. Firefox Focus). -->
