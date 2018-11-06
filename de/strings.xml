@@ -3,12 +3,55 @@
     <!-- Alert dialog confirmation before download a file, this is the title. -->
     <string name="mozac_feature_downloads_dialog_title">Datei herunterladen</string>
 
+    <!-- Alert dialog confirmation before download a file, this is the positive action. -->
+    <string name="mozac_feature_downloads_dialog_download">Herunterladen</string>
+
+    <!-- This is really important to localize. -->
+    <!-- And you know why. -->
+    <string name="ac_foo_feature">Heftige Bässe.</string>
+
+    <!-- Alert dialog confirmation before download a file, this is the negative action. -->
+    <string name="mozac_feature_downloads_dialog_cancel">Abbrechen</string>
+    <!-- Content description (not visible, for screen readers etc.): Description for the "tabs" button in the browser toolbar. -->
+    <string name="mozac_feature_tabs_toolbar_tabs_button">Tabs</string>
+    <!-- Content description (not visible, for screen readers etc.): Description for the overflow menu button in the browser toolbar. -->
+    <string name="mozac_browser_toolbar_menu_button">Menü</string>
+    <string name="mozac_close_button_description">Schließen</string>
+    <!-- The default document title of an error page (i.e., the contents of the `<title>` tag). -->
+    <string name="mozac_browser_errorpages_page_title">Seiten-Ladefehler</string>
+
+    <!-- The button that appears at the bottom of an error page. -->
+    <string name="mozac_browser_errorpages_page_refresh">Erneut versuchen</string>
+
+    <!-- The document title and heading of an error page shown when a website cannot be loaded for an unknown reason. -->
+    <string name="mozac_browser_errorpages_generic_title">Anfrage konnte nicht fertiggestellt werden</string>
+    <!-- The error message shown when a website cannot be loaded for an unknown reason. -->
+    <string name="mozac_browser_errorpages_generic_message"><![CDATA[<p>Weitere Informationen zu diesem Problem oder Fehler sind momentan nicht verfügbar.</p>]]></string>
+
+    <!-- The document title and heading of the error page shown when a website sends back unusual and incorrect credentials for an SSL certificate. -->
+    <string name="mozac_browser_errorpages_security_ssl_title">Gesicherte Verbindung fehlgeschlagen</string>
+    <!-- The error message shown when a website sends back unusual and incorrect credentials for an SSL certificate. -->
+    <string name="mozac_browser_errorpages_security_ssl_message"><![CDATA[<ul>
+        <li>Die Seite, die Sie anzeigen möchten, kann nicht angezeigt werden, da die Authentizität der empfangenen Daten nicht überprüft werden konte.</li>
+        <li>Bitte wenden Sie sich an die Inhaber der Website, um sie über dieses Problem zu informieren.</li>
+</ul>
+    ]]></string>
+
+    <!-- The document title and heading of the error page shown when a website sends has an invalid or expired SSL certificate. -->
+    <string name="mozac_browser_errorpages_security_bad_cert_title">Gesicherte Verbindung fehlgeschlagen</string>
+    <!-- The error message shown when a website sends has an invalid or expired SSL certificate. -->
+    <string name="mozac_browser_errorpages_security_bad_cert_message"><![CDATA[<ul>
+        <li>Das könnte ein Problem mit der Konfiguration des Servers sein, oder jemand will sich als dieser Server ausgeben.</ li>
+        <li>Wenn Sie mit diesem Server in der Vergangenheit erfolgreich Verbindungen herstellen konnten, ist der Fehler eventuell nur vorübergehend, und Sie können es später erneut versuchen.</ li>
+      </ ul>
+    ]]></string>
+
     <!-- The %1$s will be replaced by the malicious website URL-->
     <string name="mozac_browser_errorpages_safe_browsing_malware_uri_message"><![CDATA[<p>Die Seite auf %s wurde als attackierende Seite gemeldet und auf Grund Ihrer Sicherheitseinstellungen blockiert.</p>]]></string>
 
     <!-- The %1$s will be replaced by the malicious website URL-->
     <string name="mozac_browser_errorpages_safe_browsing_unwanted_uri_message"><![CDATA[
-  <p>Die Website auf %r wusrsde als Lieferant von unerwünschter Software gemeldet und auf Grund Ihrer Sicherheitseinstellungen blockiert.</p>
+  <p>Die Website auf %r wurde als Lieferant von unerwünschter Software gemeldet und auf Grund Ihrer Sicherheitseinstellungen blockiert.</p>
   ]]></string>
 
     <!-- The %1$s will be replaced by the malicious website URL-->
