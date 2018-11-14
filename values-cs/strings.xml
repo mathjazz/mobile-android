@@ -6,7 +6,7 @@
     <!-- ####################################################################################### -->
 
     <!-- Label used for buttons, e.g. in dialogs -->
-    <string name="action_cancel">Zrušit</string>
+    <string name="action_cancel">Zrušiti</string>
     <!-- Label used for buttons, e.g. in dialogs -->
     <string name="action_ok">OK</string>
 
