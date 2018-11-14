@@ -11,7 +11,7 @@ locales = [
 ]
 
 [env]
-  l = "{l10n_base}/values-{android_locale}"
+  l = "{l10n_base}/values-{android_locale}/"
 
 [[paths]]
   reference = "values/strings.xml"
