@@ -16,3 +16,4 @@ locales = [
 [[paths]]
   reference = "values/strings.xml"
   l10n = "{l}strings.xml"
+
