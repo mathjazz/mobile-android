@@ -1,5 +1,5 @@
 basepath = "."
-locales = ["cs", "de", "fr", "it", "pl", "ru", "sl", "af"]
+locales = ["cs", "de", "fr", "it", "pl", "ru", "sl", "af", "ak"]
 
 [[paths]]
 reference = "values/strings.xml"
