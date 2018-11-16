@@ -1,19 +1,9 @@
 basepath = "."
-
-locales = [
-  "cs",
-  "de",
-  "fr",
-  "it",
-  "pl",
-  "ru",
-  "sl",
-]
-
-[env]
-  l = "{l10n_base}/values-{android_locale}/"
+locales = ["cs", "de", "fr", "it", "pl", "ru", "sl", "af"]
 
 [[paths]]
-  reference = "values/strings.xml"
-  l10n = "{l}strings.xml"
+reference = "values/strings.xml"
+l10n = "{l}strings.xml"
 
+[env]
+l = "{l10n_base}/values-{android_locale}/"
